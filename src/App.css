@@ -27,6 +27,7 @@
 }
 
 .card-image img{
+  max-width: 96px;
   border-radius: 50px;
 }
 
@@ -46,14 +47,10 @@
   color: #0e76a8;
 }
 
-.card-social-links .facebook {
-  color: #3b5998;
-}
-
-.card-social-links .instagram{
-  color: #bc1888; 
-}
-
 .card-social-links .git{
   color: #333333; 
+}
+
+.card-social-links .gmail {
+  color: #D44638;
 }

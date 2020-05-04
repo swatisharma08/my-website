@@ -9,7 +9,7 @@ function App() {
           <div className="card-content">
           <div className="card-image">
               <figure className="image is-54x54">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                <img src="/user-image.jpeg" alt="Placeholder image" />
               </figure>
             </div>
             <div className="card-name">
@@ -20,19 +20,16 @@ function App() {
             </div>
 
             <div className="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-              <a href="#">#css</a> <a href="#">#responsive</a>
+              I am a passionate developer with problem solving mindset, who knows how to lead.
+              Mostly work with Javascript frameworks, currently working in ReactJS and NodeJS
               <br />
             </div>
 
             <div className="card-social-links">
-                <a href="#" className="facebook"><i className="fab fa-facebook"></i></a>
-                <a href="#" className="linked-in"><i className="fab fa-linkedin"></i></a>
-                <a href="#" className="instagram"><i className="fab fa-instagram-square"></i></a>
-                <a href="#" className="git"><i className="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/swati-sharma-2703419a" className="linked-in"><i className="fab fa-linkedin"></i></a>
+                <a href="https://github.com/swatisharma08" className="git"><i className="fab fa-github-square"></i></a>
+                <a href="mailto:swatis4494@gmail.com" className="gmail"><i class="fas fa-envelope-square"></i></a>
+                
             </div>
           </div>
           </div>
