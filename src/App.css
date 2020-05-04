@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: 'monospace';
+  background-image: url('/background-3048876_1920.jpg');
 }
 
 .cardContainer {
@@ -11,8 +12,12 @@
 }
 
 .cardContainer .card{
-  width: 65%;
-  height: 65%;
+  border-radius: 35px;
+  width: 55%;
+  min-height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-image {
@@ -35,4 +40,20 @@
 
 .card-social-links a{
   margin: 10px
+}
+
+.card-social-links .linked-in {
+  color: #0e76a8;
+}
+
+.card-social-links .facebook {
+  color: #3b5998;
+}
+
+.card-social-links .instagram{
+  color: #bc1888; 
+}
+
+.card-social-links .git{
+  color: #333333; 
 }

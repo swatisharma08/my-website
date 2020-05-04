@@ -22,16 +22,18 @@ function App() {
             <div className="content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
               <a href="#">#css</a> <a href="#">#responsive</a>
               <br />
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
             </div>
-          </div>
-          <div className="card-social-links">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-instagram-square"></i></a>
-              <a href="#"><i class="fab fa-github-square"></i></a>
+
+            <div className="card-social-links">
+                <a href="#" className="facebook"><i className="fab fa-facebook"></i></a>
+                <a href="#" className="linked-in"><i className="fab fa-linkedin"></i></a>
+                <a href="#" className="instagram"><i className="fab fa-instagram-square"></i></a>
+                <a href="#" className="git"><i className="fab fa-github-square"></i></a>
+            </div>
           </div>
           </div>
         </div>
