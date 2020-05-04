@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'monospace';
 }
 
 .cardContainer {
@@ -10,6 +11,28 @@
 }
 
 .cardContainer .card{
-  width: 50%;
-  height: 50%;
+  width: 65%;
+  height: 65%;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card-image img{
+  border-radius: 50px;
+}
+
+.card-name {
+  margin-bottom: 1.5rem;
+}
+
+.card-social-links {
+  font-size: 30px;
+}
+
+.card-social-links a{
+  margin: 10px
 }
