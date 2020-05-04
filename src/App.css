@@ -13,11 +13,16 @@
 
 .cardContainer .card{
   border-radius: 35px;
+  min-width: 275px;
   width: 55%;
   min-height: 65%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.cardContainer .content{
+  font-size: 20px;
 }
 
 .card-image {
